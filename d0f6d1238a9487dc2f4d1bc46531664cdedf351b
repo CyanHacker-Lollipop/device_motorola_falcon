@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af78d9a_80639a19",
+        "filename": "cm.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-01-08T18:18:11Z",
+      "side": 1,
+      "message": "tm",
+      "range": {
+        "startLine": 7,
+        "startChar": 15,
+        "endLine": 7,
+        "endChar": 17
+      },
+      "revId": "d0f6d1238a9487dc2f4d1bc46531664cdedf351b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af78d9a_c06da206",
+        "filename": "cm.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-01-08T18:18:11Z",
+      "side": 1,
+      "message": "that must be the name of the manufacorer",
+      "range": {
+        "startLine": 8,
+        "startChar": 38,
+        "endLine": 8,
+        "endChar": 44
+      },
+      "revId": "d0f6d1238a9487dc2f4d1bc46531664cdedf351b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af78d9a_a07216e3",
+        "filename": "cm.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-01-08T18:18:11Z",
+      "side": 1,
+      "message": "TheMuppets branch is cm-12.0",
+      "range": {
+        "startLine": 10,
+        "startChar": 17,
+        "endLine": 10,
+        "endChar": 25
+      },
+      "revId": "d0f6d1238a9487dc2f4d1bc46531664cdedf351b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
