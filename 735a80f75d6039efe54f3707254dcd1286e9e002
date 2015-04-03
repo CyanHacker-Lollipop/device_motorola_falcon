@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_a755e7c7",
+        "filename": "ch.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-04-03T17:39:13Z",
+      "side": 1,
+      "message": "why that all? this is already defined in device_motorola_msm8226-common",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 22
+      },
+      "revId": "735a80f75d6039efe54f3707254dcd1286e9e002",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
