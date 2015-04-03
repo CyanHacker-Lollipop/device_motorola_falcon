@@ -44,3 +44,8 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
+
+#Kernel toolchain directory
+ifdef TARGET_GCC_ARM
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-$(TARGET_GCC_ARM)/bin
+endif
