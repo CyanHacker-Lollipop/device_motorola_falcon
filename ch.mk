@@ -1,5 +1,3 @@
-$(call inherit-product, device/motorola/falcon/full_falcon.mk)
-
 ################OPTIMIZATIONS###################
 #Use Optimizations?
 USE_OPTIMIZATIONS := true
@@ -28,19 +26,9 @@ endif
 ##If you´re running an old device, set this to true
 USE_LEGACY_GCC := false
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 720
-TARGET_SCREEN_WIDTH := 1280
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/ch/config/common_full_phone.mk)
+$(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/ch/config/nfc_enhanced.mk)
-
-# Inherit device configuration
-$(call inherit-product, device/moto/falcon/falcon.mk)
-
-DEVICE_PACKAGE_OVERLAYS += device/moto/falcon/overlay-cm
 PRODUCT_RELEASE_NAME := MOTO G
 PRODUCT_NAME := ch_falcon
