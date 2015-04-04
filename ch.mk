@@ -16,7 +16,7 @@ TARGET_GCC_ARM := 4.9-sm
 ENABLE_PTHREAD := true
 
 ##Enable O3 Optimizations
-O3_OPTIMIZATIONS:= true
+O3_OPTIMIZATIONS:= false
 
 ##Enable ArchiDroid Optimizations
 ARCHIDROID_OPTIMIZATIONS := true
